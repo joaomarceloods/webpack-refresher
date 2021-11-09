@@ -33,3 +33,10 @@ Webpack supports JavaScript and JSON files from scratch.
 To import other types of files from the Entry file,
 it needs loaders. For example, you can install raw-loader
 to enable importing text from .txt files into JavaScript.
+
+# Plugins
+
+Plugins do special operations like bundle optimization and
+asset management. As an example, I used html-webpack-plugin
+to inject the JavaScript bundle from the previous commit
+into a new HTML file.
