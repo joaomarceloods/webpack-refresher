@@ -49,3 +49,9 @@ but uses just the `add` function. After bundling the files,
 the output file doesn't include any of the unused functions.
 In fact, it's clever enough to include just the *result* of
 the `add` function!
+
+## Double Imports
+
+Even if a file is imported by two or more files, Webpack will
+bundle that file just once. In other words, the code in that
+file won't execute multiple times.
