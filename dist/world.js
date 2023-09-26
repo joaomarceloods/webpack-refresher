@@ -1,1 +1,0 @@
-(()=>{"use strict";console.log("JS","hello from a javascript file"),console.log("TXT","hello from a text file"),console.log("Import",2)})();
