@@ -1,16 +1,16 @@
 # Webpack Refresher
 
-Just me remembering how to use webpack.
+A refresher on how to use webpack.
 
 https://webpack.js.org/concepts/
 
-I'm versioning the dist folder to keep track of Output.
+I'm versioning the dist folder to keep track of the output.
 
 ## Setup
 
 ```
-yarn install
-yarn run webpack
+npm install
+npx webpack
 # then check the dist folder
 ```
 
